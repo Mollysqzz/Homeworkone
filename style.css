@@ -1,13 +1,27 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f4266;
+  --grey: #2e2f42b2;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
 .page {
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--slate);
+  background-color: var(--white);
   font-family: Roboto, sans-serif;
 }
 .link {
   text-decoration: none;
 }
 .logo {
-  color: #4d5ae5;
+  color: var(--iris);
   font-family: Raleway;
   font-weight: 700;
   font-style: Bold;
@@ -17,7 +31,7 @@
   text-transform: uppercase;
 }
 .logo-part {
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 .navigation {
   font-weight: 500;
@@ -25,11 +39,11 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 .navigation:hover,
 .navigation:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 .address {
   font-weight: 400;
@@ -37,14 +51,14 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-  color: #434455;
+  color: var(--slate);
 }
 .address:hover,
 .address:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--navy-blue, black);
 }
 .hero-title {
   font-weight: 700;
@@ -53,7 +67,7 @@
   line-height: 60px;
   letter-spacing: 2%;
   text-align: center;
-  color: #ffffff;
+  color: var(--white);
 }
 .hero-button {
   font-weight: 500;
@@ -62,12 +76,12 @@
   line-height: 24px;
   letter-spacing: 4%;
   vertical-align: middle;
-  background-color: #4d5ae5;
-  color: #ffffff;
+  background-color: var(--iris);
+  color: var(--white);
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
+  background-color: var(--ocean);
 }
 .advanteges-title {
   display: none;
@@ -78,7 +92,7 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 2%;
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 .section-text {
   font-weight: 400;
@@ -86,10 +100,10 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-  color: #434455;
+  color: var(--slate);
 }
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
 }
 .team-title {
   color: #2e2f42;
@@ -101,5 +115,5 @@
   text-align: center;
 }
 .team-card {
-  background-color: #ffffff;
+  background-color: var(--white);
 }
