@@ -59,6 +59,7 @@
 }
 .hero {
   background-color: var(--navy-blue, black);
+  margin: 0 auto;
 }
 .hero-title {
   font-weight: 700;
@@ -78,6 +79,7 @@
   vertical-align: middle;
   background-color: var(--iris);
   color: var(--white);
+  margin: 0 auto;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -85,6 +87,10 @@
 }
 .advanteges-title {
   display: none;
+}
+.advanteges-list {
+  width: 1128px;
+  height: 104px;
 }
 .section-title {
   font-weight: 500;
@@ -104,6 +110,7 @@
 }
 .team {
   background-color: var(--cloud);
+  margin: 0 auto;
 }
 .team-title {
   color: #2e2f42;
