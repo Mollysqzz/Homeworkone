@@ -17,8 +17,32 @@
   background-color: var(--white);
   font-family: Roboto, sans-serif;
 }
+.countainer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.header-countainer {
+  display: flex;
+  align-items: center;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+li {
+  list-style-type: none;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+}
 .link {
   text-decoration: none;
+}
+.list {
+  list-style-type: none;
 }
 .logo {
   color: var(--iris);
@@ -29,9 +53,14 @@
   line-height: 21px;
   letter-spacing: 3%;
   text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 76px;
 }
 .logo-part {
   color: var(--navy-blue);
+}
+.menu-item:not(:last-child) {
+  margin-right: 40px;
 }
 .navigation {
   font-weight: 500;
