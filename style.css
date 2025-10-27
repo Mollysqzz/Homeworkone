@@ -38,6 +38,10 @@ li {
   display: flex;
   align-items: center;
 }
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--ocean);
+}
 .link {
   text-decoration: none;
 }
@@ -46,7 +50,7 @@ li {
 }
 .logo {
   color: var(--iris);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-style: Bold;
   font-size: 18px;
@@ -76,15 +80,27 @@ li {
 }
 .address {
   font-weight: 400;
-  font-style: Regular;
+  font-style: normal;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
   color: var(--slate);
+  margin-left: auto;
 }
 .address:hover,
 .address:focus {
   color: var(--ocean);
+}
+.address-nav {
+  display: flex;
+  align-items: center;
+}
+.address-nav:hover,
+.address-nav:focus {
+  color: var(--ocean);
+}
+.address-nav-first {
+  margin-right: 40px;
 }
 .hero {
   background-color: var(--navy-blue, black);
