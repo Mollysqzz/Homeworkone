@@ -197,6 +197,7 @@ img {
   letter-spacing: 2%;
   text-align: center;
   color: var(--navy-blue);
+  margin-bottom: 72px;
 }
 .section-title {
   font-weight: 500;
@@ -237,4 +238,6 @@ img {
 }
 .team-card {
   background-color: var(--white);
+  flex-basis: calc((100% - 3 * 144px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
