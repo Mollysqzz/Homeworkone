@@ -139,6 +139,17 @@ img {
 /*HERO*/
 .hero {
   background-color: var(--navy-blue, black);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(./img/7c8d46d47e83b6c8ee4603ea892aa8aaebb3c5fe.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
   padding: 188px 0;
@@ -182,11 +193,17 @@ img {
 }
 .advanteges {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 24px;
 }
-.advanteges-card {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+.advanteges-icons {
+  margin-bottom: 8px;
+  background-color: var(--cloud);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 112px;
 }
 /*SECTION*/
 .section-caption {
