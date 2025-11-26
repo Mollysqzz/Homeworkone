@@ -196,7 +196,7 @@ img {
   flex-wrap: wrap;
   gap: 24px;
 }
-.advanteges-icons {
+.advanteges-icon {
   margin-bottom: 8px;
   background-color: var(--cloud);
   display: flex;
@@ -204,6 +204,9 @@ img {
   justify-content: center;
   width: 264px;
   height: 112px;
+}
+.advanteges-card {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 /*SECTION*/
 .section-caption {
@@ -232,6 +235,7 @@ img {
   line-height: 24px;
   letter-spacing: 2%;
   color: var(--slate);
+  margin-bottom: 8px;
 }
 /*TEAM*/
 .main-team {
@@ -261,6 +265,26 @@ img {
 .team-card-wrapper {
   padding: 32px 16px;
   text-align: center;
+}
+.social {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.social-link:hover {
+  background-color: var(--ocean);
+}
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--iris);
+  border-radius: 50%;
+}
+.social-icons {
+  fill: var(--cloud);
 }
 .footer {
   background-color: var(--navy-blue);
