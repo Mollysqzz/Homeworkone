@@ -336,3 +336,12 @@ img {
   background-color: var(--ocean);
   color: var(--white);
 }
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-card-wrapper {
+  padding: 32px 0;
+}
