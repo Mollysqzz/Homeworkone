@@ -98,6 +98,7 @@ img {
   color: var(--navy-blue);
 }
 .menu-item:not(:last-child) {
+  margin: 24px 0;
   margin-right: 40px;
 }
 .navigation {
@@ -107,6 +108,9 @@ img {
   line-height: 24px;
   letter-spacing: 2%;
   color: var(--navy-blue);
+}
+.nav-item {
+  margin: 24px 0;
 }
 .navigation:hover,
 .navigation:focus {
@@ -344,4 +348,53 @@ img {
 }
 .portfolio-card-wrapper {
   padding: 32px 0;
+}
+.portfolio-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0, 100%);
+  transition: transform 250ms ease-in-out;
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  color: var(--cloud);
+  padding: 40px 32px;
+  width: 324px;
+}
+.portfolio-image-wrapper:hover .overlay {
+  transform: translate(0, 0);
+}
+/*
+  |============================
+  |       Modal window
+  |============================
+*/
+.backdrop {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% -50%);
+  width: 408px;
+  height: 584px;
+  background-color: rgba(252, 252, 252, 1);
 }
