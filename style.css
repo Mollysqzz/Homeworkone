@@ -473,4 +473,50 @@ img {
 .user-comment {
   resize: none;
   height: 120px;
+  padding: 8px 16px;
+}
+.modal-checkbox {
+  margin-bottom: 24px;
+}
+.register-checkbox:checked + .register-sign > .register-sign-image {
+  background-color: var(--iris);
+  fill: var(--dairy);
+}
+.register-sign {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 4%;
+  color: rgba(117, 117, 117, 1);
+}
+.register-sign-image {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+  width: 18px;
+  height: 18px;
+  border-radius: 2px;
+  fill: transparent;
+  border: 1px solid black;
+}
+.register-sign-link {
+  color: var(--iris);
+}
+.register-button {
+  border-radius: 4px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--iris);
+  color: var(--white);
+  font-size: 16px;
+  min-width: 169px;
+  min-height: 56px;
 }
