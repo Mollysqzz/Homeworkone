@@ -1,0 +1,20 @@
+.main-description {
+  padding: 120px 0;
+}
+.advanteges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.advanteges-icon {
+  margin-bottom: 8px;
+  background-color: var(--cloud);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 112px;
+}
+.advanteges-card {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}

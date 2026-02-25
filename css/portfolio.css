@@ -1,0 +1,63 @@
+.sorting {
+  padding: 100px 0px 72px 0px;
+}
+.sort {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.sorting-botton {
+  background-color: var(--cloud);
+  color: var(--iris);
+  font-weight: 500;
+  padding: 12px 24px;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid rgba(231, 233, 252, 1);
+  border-radius: 4px;
+  font-family: Roboto, sans-serif;
+}
+.sorting-botton:hover {
+  background-color: var(--ocean);
+  color: var(--white);
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-card-wrapper {
+  padding: 32px 0;
+}
+.portfolio-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0, 100%);
+  transition: transform 250ms ease-in-out;
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  color: var(--cloud);
+  padding: 40px 32px;
+  width: 324px;
+}
+.portfolio-image-wrapper:hover .overlay {
+  transform: translate(0, 0);
+}

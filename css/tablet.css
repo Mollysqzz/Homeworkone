@@ -1,0 +1,18 @@
+@media only screen and (min-width: 768px) {
+  .countainer {
+    background-color: chocolate;
+    max-width: 768px;
+  }
+  .site-nav {
+    display: flex;
+    align-items: center;
+  }
+  .address {
+    display: block;
+    margin-left: auto;
+  }
+  .address-nav {
+    display: block;
+    font-size: 12px;
+  }
+}

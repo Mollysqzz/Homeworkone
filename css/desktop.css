@@ -1,0 +1,10 @@
+@media only screen and (min-width: 1440px) {
+  .countainer {
+    background-color: deeppink;
+    max-width: 1440px;
+  }
+  .address-nav {
+    font-size: 16px;
+    display: flex;
+  }
+}

@@ -1,0 +1,41 @@
+@media only screen and (min-width: 320px) {
+  .countainer {
+    min-width: 320px;
+    max-width: 432px;
+    background-color: springgreen;
+  }
+  .header-countainer {
+    justify-content: space-between;
+    min-height: 56px;
+  }
+  .page-nav {
+    justify-content: space-between;
+  }
+  .site-nav {
+    display: none;
+  }
+  .address {
+    display: none;
+  }
+  /*HERO*/
+  .hero {
+    padding: 72px 0;
+  }
+  .hero-title {
+    font-size: 36px;
+    margin-bottom: 72px;
+    max-width: 216px;
+  }
+  .hero-countainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /*ADVANTEGES*/
+  .main-description {
+    padding: 96px 0;
+  }
+  .advanteges-icon {
+    display: none;
+  }
+}

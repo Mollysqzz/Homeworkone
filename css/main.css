@@ -1,0 +1,60 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f4266;
+  --grey: #2e2f42b2;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.countainer {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.section-caption {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  text-align: center;
+  color: var(--navy-blue);
+  margin-bottom: 72px;
+}
+.section-title {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: var(--navy-blue);
+  margin-bottom: 8px;
+}
+.section-text {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: var(--slate);
+  margin-bottom: 8px;
+}
