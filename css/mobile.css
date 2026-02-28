@@ -2,7 +2,6 @@
   .countainer {
     min-width: 320px;
     max-width: 432px;
-    background-color: springgreen;
   }
   .header-countainer {
     justify-content: space-between;
@@ -37,5 +36,14 @@
   }
   .advanteges-icon {
     display: none;
+  }
+  .advanteges {
+    gap: 72px;
+  }
+  .advanteges-title {
+    font-size: 36px;
+  }
+  .section-text {
+    font-size: 16px;
   }
 }
