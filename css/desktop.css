@@ -25,4 +25,72 @@
   .advanteges-icon {
     display: flex;
   }
+  .main-description {
+    padding: 120px 0;
+  }
+  .advanteges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .advanteges-icon {
+    margin-bottom: 8px;
+    background-color: var(--cloud);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+  }
+  .advanteges-card {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+  .main-team {
+    background-color: var(--cloud);
+    padding: 120px 0;
+    box-sizing: border-box;
+  }
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .team-title {
+    color: #2e2f42;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 2%;
+    text-align: center;
+  }
+  .team-card {
+    background-color: var(--white);
+    flex-basis: calc((100% - 3 * 144px) / 4);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .team-card-wrapper {
+    padding: 32px 16px;
+    text-align: center;
+  }
+  .social {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+  .social-link:hover {
+    background-color: var(--ocean);
+  }
+  .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--iris);
+    border-radius: 50%;
+  }
+  .social-icons {
+    fill: var(--cloud);
+  }
 }
