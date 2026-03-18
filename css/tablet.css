@@ -25,4 +25,7 @@
   .advantages {
     gap: 72px 24px;
   }
+  .menu-toggle {
+    display: none;
+  }
 }

@@ -39,6 +39,8 @@
   }
   .advanteges {
     gap: 72px;
+    display: flex;
+    justify-content: center;
   }
   .advanteges-title {
     font-size: 36px;
@@ -81,4 +83,58 @@
   .social-footer {
     gap: 16px;
   }
+  .footer-third-part {
+    display: block;
+    text-align: center;
+    margin-bottom: 96px;
+  }
+  .footer-email {
+    max-width: 398px;
+    width: 100%;
+  }
+  .footer-email-input {
+    height: 40px;
+    max-width: 300px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 8px 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    vertical-align: middle;
+    color: white;
+    margin-bottom: 16px;
+  }
+  .footer-email-button {
+    background-color: var(--iris);
+    width: 165px;
+    height: 40px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+.logo {
+  margin: 0px;
+}
+.icon-menu {
+  stroke: rgb(102, 97, 97);
+  stroke-width: 3;
+  padding: 24px 0px;
+}
+.menu-toggle {
+  display: block;
+  width: 32px;
+  height: 22px;
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
 }
